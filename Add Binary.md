@@ -2,7 +2,7 @@
 
 [Add Binary](https://leetcode.com/problems/add-binary/ "Add Binary")
 
-模拟计算。
+模拟计算。遇到了编译器对于数组初始化的不同实现的问题，LeetCode似乎并没有把空字符串数组初始化为0，导致我的代码中字符串结尾的位置出现问题。相同的代码在不同的环境中编译运行得到不同的结果，这种bug很隐蔽，要多多注意C中字符串的问题。
 
 C:
 
